@@ -1,38 +1,61 @@
 .App {
+  height: 100vh;
+  background-color: lightgrey;
+}
+
+.schema {
   text-align: center;
+  width: 650px;
+  float: left;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.degrees {
+  font-size: 13px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+img {
+  height: 48px;
+  float: left;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.allContent {
+  width: 95vh;
+  height: 30vh;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #23272e;
   color: white;
+  padding: 20px;
+  border-radius: 20px;
+  -webkit-box-shadow: 4px 4px 10px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 4px 4px 10px 4px rgba(0, 0, 0, 0.5);
+  float: left;
 }
 
-.App-link {
-  color: #61dafb;
+.newColor {
+  color: #9aa0a6;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.hColor {
+  color: lightgray;
+}
+
+.iColor {
+  background-color: rgb(250, 250, 250);
+}
+
+.border1 {
+  border: 1px solid lightgray;
+  ;
+  border-radius: 10px;
+}
+
+.wDays {
+  padding-top: 3px;
+  height: 116px;
+  float: left;
+  margin-left: 33px;
+  padding-bottom: 50px;
 }
